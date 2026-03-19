@@ -1,4 +1,4 @@
-![Tests](https://github.com)
+![Tests](https://github.com/licorice19/laravel-api-key/actions/workflows/main.yml/badge.svg)
 
 # API Key Authentication for Laravel
 
