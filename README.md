@@ -1,3 +1,5 @@
+[![Pest Tests](https://github.com/licorice19/laravel-api-key/actions/workflows/tests.yml/badge.svg)](https://github.com/licorice19/laravel-api-key/actions/workflows/tests.yml)
+
 # API Key Authentication for Laravel
 
 Simple and reliable API key authentication for internal tools and B2B integrations — no user binding, no overhead.
