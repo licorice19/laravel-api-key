@@ -1,3 +1,5 @@
+![Tests](https://github.com)
+
 # API Key Authentication for Laravel
 
 Simple and reliable API key authentication for internal tools and B2B integrations — no user binding, no overhead.
