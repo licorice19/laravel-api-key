@@ -1,7 +1,8 @@
 {
-    "name": "licorice19/api-key",
+    "name": "licorice19/laravel-api-key",
     "type": "library",
     "description": "Laravel package for API key authentication",
+    "keywords": ["laravel", "api", "auth", "api-key", "authentication"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
