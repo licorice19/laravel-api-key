@@ -1,0 +1,53 @@
+{
+    "name": "licorice19/api-key",
+    "type": "library",
+    "description": "Laravel package for API key authentication",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Licorice19\\ApiKey\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Licorice19\\ApiKey\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry K.",
+            "email": "dkozyarskij@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/http": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5|^11.0|^12.0",
+        "pestphp/pest": "^2.0|^3.0",
+        "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+        "laravel/pint": "^1.10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Licorice19\\ApiKey\\ApiKeyServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "pest",
+        "test-coverage": "pest --coverage",
+        "pint": "pint",
+        "pint-test": "pint --test"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
